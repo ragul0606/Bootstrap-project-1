@@ -1,0 +1,61 @@
+body {
+  min-width: 100vh;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.custom-class {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.custom-nav-list {
+  color: rgb(107, 107, 107) !important;
+  font-size: 1rem;
+}
+
+.custom-image {
+  width: 50rem;
+  height: 25rem;
+}
+
+.container {
+  width: 100% !important;
+}
+
+.custom-h2 {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+}
+
+.card-a {
+  width: 75%;
+  height: 100rem;
+}
+
+.custom-para {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-b {
+  width: 75%;
+  height: 100rem;
+  /* background-color: navy; */
+}
+
+.custom-b-container {
+  background-color: black !important;
+  color: white;
+  /* height: 100rem; */
+}
+
+.custom-h2-head {
+  font-size: 1.75rem;
+  margin-left: 1rem;
+  color: gold !important;
+}

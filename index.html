@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Project - 1</title>
+    <!-- Bootsrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header class="container">
+      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4">
+        <a
+          href="/"
+          class="d-flex align-items-center text-dark text-decoration-none custom-class"
+          >W.</a
+        >
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a
+            class="me-3 py-2 text-dark text-decoration-none custom-nav-list"
+            href="#"
+            >Home</a
+          >
+          <a
+            class="me-3 py-2 text-dark text-decoration-none custom-nav-list"
+            href="#"
+            >New</a
+          >
+          <a
+            class="me-3 py-2 text-dark text-decoration-none custom-nav-list"
+            href="#"
+            >Popular</a
+          >
+          <a
+            class="me-3 py-2 text-dark text-decoration-none custom-nav-list"
+            href="#"
+            >Trending</a
+          >
+          <a
+            class="me-3 py-2 text-dark text-decoration-none custom-nav-list"
+            href="#"
+            >Catagories</a
+          >
+        </nav>
+      </div>
+    </header>
+    <!-- Main content -->
+    <div class="container d-flex flex-row g-3 gap-3">
+      <div class="card-a d-flex row">
+        <div class="card">
+          <img src="./image.jpeg" alt="Image" class="custom-image" />
+          <div class="card-content-box d-flex flex-row">
+            <h2 class="display-6 text-wrap custom-h2">
+              The Bright Future of Web 3.0?
+            </h2>
+            <div class="button-para d-flex flex-column">
+              <p class="custom-para">
+                We dive into the evolution of the web that claims to put the
+                power of the platforms back into the hands of the people. But is
+                it really fulfilling its promise?
+              </p>
+              <button class="btn btn-danger d-block">READ MORE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-b d-flex flex-column">
+        <!-- Side box -->
+        <div class="card custom-b-container">
+          <div class="container custom-b-container">
+            <h2 class="custom-h2-head">New</h2>
+            <ul class="list-group list-group-flush custom-b-container">
+              <li class="list-group-item custom-b-container">
+                <h4>Hydrogen VS Electric Cars</h4>
+                <p>Will hydrogen fueled cars ever catch up to EV's?</p>
+              </li>
+              <li class="list-group-item custom-b-container">
+                <h4>The downside of AI Artistry</h4>
+                <p>
+                  What is the possible adverse effects of on demand AI image
+                  generation?
+                </p>
+              </li>
+              <li class="list-group-item custom-b-container">
+                <h4>Is VC funding Drying Up?</h4>
+                <p>
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what matters that means.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
